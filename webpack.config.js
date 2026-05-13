@@ -11,6 +11,7 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'dist'),
       filename: 'bundle.[contenthash].js',
       clean: true,
+      publicPath: '/chopra-aryan/'
     },
     devServer: {
       static: './dist',
